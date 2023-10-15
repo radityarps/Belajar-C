@@ -14,4 +14,6 @@ int main()
     int fahrenhit = ((9 / 5) * C) + 32;
     /* output */
     printf("Hasilnya adalah : %d", fahrenhit);
+
+    return 0;
 }

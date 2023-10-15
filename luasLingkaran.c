@@ -10,7 +10,7 @@ int main()
 {
     /* input */
     float pi = 3.14;
-    int r = 15;
+    int r = 25;
 
     /* proses */
     float luasLingkaran = pi * r * r;
@@ -19,4 +19,6 @@ int main()
     /* output */
     printf("Luas Lingkaran : %f\n", luasLingkaran);
     printf("Keliling Lingkaran : %f", kelilingLingkaran);
+
+    return 0;
 }
