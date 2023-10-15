@@ -11,7 +11,7 @@ int main()
     /* input */
     int C = 10;
     /* proses */
-    int fahrenhit = ((9 / 5) * C) + 32;
+    float fahrenhit = (1.8 * C) + 32;
     /* output */
     printf("Hasilnya adalah : %d", fahrenhit);
 
