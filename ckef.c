@@ -9,11 +9,11 @@ NIM : 3.34.23.2.18
 int main()
 {
     /* input */
-    int C = 10;
+    int C = 25;
     /* proses */
     float fahrenhit = (1.8 * C) + 32;
     /* output */
-    printf("Hasilnya adalah : %d", fahrenhit);
+    printf("Hasilnya adalah : %f", fahrenhit);
 
     return 0;
 }
