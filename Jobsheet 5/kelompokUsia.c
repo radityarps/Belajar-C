@@ -9,7 +9,7 @@ NIM : 3.34.23.2.18
 int main()
 {
     /* Input Data */
-    char nama[100];
+    char nama[20];
     printf("Masukkan nama anda: ");
     scanf("%s", nama);
     int umur;
@@ -25,11 +25,11 @@ int main()
     {
         printf("%s termasuk kelompok usia muda\n", nama);
     }
-    else if (umur > 25 && umur <= 34)
+    else if (umur >= 25 && umur <= 34)
     {
         printf("%s termasuk kelompok usia pekerja awal\n", nama);
     }
-    else if (umur > 35 && umur <= 44)
+    else if (umur >= 35 && umur <= 44)
     {
         printf("%s termasuk kelompok usia paruh baya\n", nama);
     }

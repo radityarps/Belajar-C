@@ -1,0 +1,5 @@
+#ignoring all the .exe files
+*.exe
+
+#cofiguration
+.vscode
